@@ -9,7 +9,7 @@ contract AbstractContractExample {
     }
 
     modifier onlyOwner() {
-        require();
+        require(isOwner());
         _;
     }
 
