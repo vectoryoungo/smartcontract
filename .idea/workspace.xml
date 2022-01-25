@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c0164e9-3e27-4e5a-bb89-136b06b5b583" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day16/InterfaceExample.sol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day16/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day17/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day17/LibraryExample.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day17/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/day17/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +17,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day14/DonateFullFeatureExample.sol">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="285">
               <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
             </state>
           </provider>
@@ -29,7 +28,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SECOND">
               <first_editor relative-caret-position="135">
-                <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+                <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
               </first_editor>
               <second_editor />
             </state>
@@ -45,14 +44,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day17/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <first_editor relative-caret-position="255">
+                <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day17/LibraryExample.sol">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -127,6 +135,7 @@
         <option value="$PROJECT_DIR$/day16/readme.md" />
         <option value="$PROJECT_DIR$/day16/InterfaceExample.sol" />
         <option value="$PROJECT_DIR$/day17/readme.md" />
+        <option value="$PROJECT_DIR$/day17/LibraryExample.sol" />
       </list>
     </option>
   </component>
@@ -149,6 +158,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,18 +167,21 @@
               <item name="smartcontract" type="b2602c69:ProjectViewProjectNode" />
               <item name="smartcontract" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="smartcontract" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smartcontract" type="462c0819:PsiDirectoryNode" />
+              <item name="day17" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1643037041857" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1643125215400" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -223,18 +237,20 @@
       <workItem from="1642602831284" duration="1344000" />
       <workItem from="1642690450528" duration="1987000" />
       <workItem from="1642778343889" duration="2025000" />
-      <workItem from="1643035669797" duration="1321000" />
+      <workItem from="1643035669797" duration="1745000" />
+      <workItem from="1643037488275" duration="430000" />
+      <workItem from="1643123529189" duration="1484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29349000" />
+    <option name="totallyTimeSpent" value="31687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1619" height="1025" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29549778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30310717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -407,8 +423,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day14/DonateFullFeatureExample.sol">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="285">
           <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day16/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day16/InterfaceExample.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -436,30 +469,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day16/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day16/InterfaceExample.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day17/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <first_editor relative-caret-position="255">
+            <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17/LibraryExample.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
