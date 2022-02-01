@@ -1,4 +1,4 @@
-pragma solidity ^0.4.25;
+pragma solidity ^0.4.0;
 
 import "day22/SafeMath.sol";
 import "day22/IERC20.sol";
@@ -6,6 +6,9 @@ import "day22/IERC20.sol";
 contract ERC20 is IERC20{
     using SafeMath for uint256;
     uint256 private _totalSupply;
+    string public constant name = "tigerYearToken";
+    uint8 public constant decimals = 18;
+    string public constant symbol = "TYT";
 
     mapping(address => uint256) _balances;
     mapping(address => mapping(address => uint256)) _approve;
