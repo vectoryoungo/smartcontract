@@ -20,7 +20,7 @@ contract Mintable is ERC20{
         _;
     }
 
-    function addMinter(address addr) public onlyOwner return (bool success) {
+    function addMinter(address addr) public onlyOwner returns (bool success) {
         minters[addr] = true;
         return true;
     }
