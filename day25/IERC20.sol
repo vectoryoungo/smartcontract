@@ -1,4 +1,4 @@
-pragma solidity ^0.4.0;
+pragma solidity ^0.4.25;
 
 interface IERC20 {
     //所有存在的token的数量，如果挖矿的话，totalSupply的数量会变动
